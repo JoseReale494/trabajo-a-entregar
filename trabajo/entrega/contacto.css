@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background: #ffffff;
+background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(183, 196, 186, 1) 50%, rgba(242, 242, 233, 1) 100%);
+background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(183, 196, 186, 1) 50%, rgba(242, 242, 233, 1) 100%);
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(183, 196, 186, 1) 50%, rgba(242, 242, 233, 1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#F2F2E9", GradientType=1);
+}
+
+
+.grande {
+    
+    padding: 5px;
+    box-shadow: 1px 2px 10px black;
+    background-color: rgb(163 154 154);
+
+}
+
+.icono {
+    width: 80px;
+    margin-bottom: -18px;
+    height: 35px;
+}
+
+.grande nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    list-style: none;
+}
+
+
+
+
+.grande nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Jockey One", sans-serif;
+
+}
+
+
+
+.contenedor {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+}
+
+
+.jockey-one-regular {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  padding: 20px;
+  display: flex;
+}
+
+.la_p {
+    color:rgb(151 146 146) ;
+}
+
+
+
+.formm {
+    box-shadow: 3px 23px 60px black;
+    width: 282px;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: -67px;
+    
+}
+
+
+.nombre {
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+}
+
+.email {
+    margin-top: 10px;
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+    
+}
+
+.telefono {
+    margin-top: 10px;
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+}
+
+.opinion {
+    margin-top: 10px;
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+}
+
+.cita {
+    margin-top: 15px;
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+    
+}
+
+
+.boton {
+    margin-top: 10px;
+    border-radius: 20px;
+     background-color: rgb(163 154 154);
+
+}
+
+
+.boton:hover {
+    box-shadow: 3px 23px 60px black;
+}
+
+
+.PPPP {
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+}
