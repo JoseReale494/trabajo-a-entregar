@@ -81,6 +81,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
     margin: 0 auto;
     margin-top: -67px;
     
+    
 }
 
 
@@ -134,6 +135,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
     font-style: normal;
 }
 
+
+
+
 @media (max-width:320px) {
     .jockey-one-regular{
         margin-bottom: 30px;
@@ -147,3 +151,4 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
         font-size: 42px;
     }
 }
+
