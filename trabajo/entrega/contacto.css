@@ -133,3 +133,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
     font-family: "Jockey One", sans-serif;
     font-style: normal;
 }
+
+@media (max-width:320px) {
+    .jockey-one-regular{
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+}
+
+@media (min-width:321px) {
+    .jockey-one-regular{
+        margin-bottom: 30px;
+        font-size: 42px;
+    }
+}
