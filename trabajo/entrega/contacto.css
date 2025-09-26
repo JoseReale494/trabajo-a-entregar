@@ -60,8 +60,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  padding: 20px;
+  padding: 0px;
   display: flex;
+  margin-left: 0px;
+  justify-content: center;
 }
 
 .la_p {
@@ -135,8 +137,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endC
     font-style: normal;
 }
 
+.div-pregunta {
+    margin-left: 18px;
+    padding: 20px;
+}
 
-
+.pregunta a {
+    font-family: "Jockey One", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 @media (max-width:320px) {
     .jockey-one-regular{
